@@ -1,14 +1,11 @@
 import './App.css';
+import  Table  from "./Table"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Test Skills Project
-        </p>
-
-      </header>
+      <div className="App-header">Test Skills Project</div>
+      <Table/>
     </div>
   );
 }
