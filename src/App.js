@@ -1,14 +1,11 @@
-import './App.css';
+import "./App.css";
+import Form from "./Form";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Test Skills Project
-        </p>
-
-      </header>
+      <p>Test Skills Project</p>
+      <Form />
     </div>
   );
 }
